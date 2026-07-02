@@ -11,11 +11,11 @@ lerna-debug.log*
 # Frontend (React / Vite)
 # =========================
 
-node_modules
-dist
-dist-ssr
-.vite
-coverage
+node_modules/
+dist/
+dist-ssr/
+.vite/
+coverage/
 
 *.local
 frontend/.env
@@ -25,26 +25,24 @@ frontend/.env.local
 # Backend (Python)
 # =========================
 
-backend/venv
-backend/.venv
-backend/env
-
-__pycache__
+__pycache__/
+backend/__pycache__/
 *.pyc
 *.pyo
 *.pyd
+*$py.class
 
-.pytest_cache
-.mypy_cache
-.ruff_cache
+backend/venv/
+backend/.venv/
+backend/env/
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
 # Environment Variables
 .env
 backend/.env
-
-# Generated Images / Screenshots
-backend/images
-backend/screenshots
 
 # Databases
 *.db
@@ -57,7 +55,7 @@ backend/screenshots
 .vscode/*
 !.vscode/extensions.json
 
-.idea
+.idea/
 .DS_Store
 
 *.suo
@@ -85,5 +83,5 @@ Desktop.ini
 # Build / Cache
 # =========================
 
-.cache
+.cache/
 *.cache
